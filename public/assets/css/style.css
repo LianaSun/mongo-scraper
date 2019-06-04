@@ -1,0 +1,77 @@
+body {
+    background-image: url("/assets/images/rainbow-background.png");
+  }
+  
+  #wrapper {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+  }
+  
+  #articles {
+    display: inline-block;
+    overflow: auto;
+    height: 700px;
+    width: 60%;
+  }
+  
+  #savedarticles {
+    display: inline-block;
+    overflow: auto;
+    height: 700px;
+    width: 60%;
+  }
+  
+  #details {
+    float: right;
+    width: 30%;
+  }
+  
+  textarea, input {
+    display: block;
+    width: 100%;
+    background-color: lightseagreen;
+  }
+  
+  input {
+    height: 36px;
+    font-size: 24px;
+  }
+  
+  textarea {
+    height: 200px;
+    font-size: 18px;
+  }
+  
+  .jumbotron {
+    background-color: mediumpurple!important;
+    text-align: center;
+  }
+  
+  .display-4 {
+    font-size: 65px!important;
+    font-weight: bold!important;
+  }
+  
+  .buttons {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .btn-danger {
+    margin-right: 30px;
+  }
+  
+  wrapper p {
+    border: goldenrod solid 1px;
+    padding: 10px;
+  }
+  
+  #articles button {
+    margin-bottom: 10px;
+  }
+  
+  #details button {
+    margin: 10px;
+  }
